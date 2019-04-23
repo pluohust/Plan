@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="40dp"
+    android:orientation="horizontal">
+
+    <Button
+        android:id="@+id/plan_everyday"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_weight="1"
+        android:background="@color/colorBackGround"
+        android:text="设置每天目标"
+        android:textColor="@color/colorEveryday" />
+
+    <Button
+        android:id="@+id/plan_threeyears"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center|left"
+        android:layout_weight="1"
+        android:background="@color/colorBackGround"
+        android:text="设置三年目标"
+        android:textColor="@color/colorThreeyears" />
+
+    <Button
+        android:id="@+id/plan_life"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="right|center"
+        android:layout_weight="1"
+        android:background="@color/colorBackGround"
+        android:text="设置人生目标"
+        android:textColor="@color/colorLife" />
+</LinearLayout>
